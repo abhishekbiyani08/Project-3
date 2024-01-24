@@ -1,0 +1,82 @@
+#head {
+	text-align: center;
+	background-image: linear-gradient(white, transparent);
+	padding: 3px;
+	padding-bottom: 10px;
+	border-radius: 30px;
+}
+#one, #two{
+	font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#heading {
+	animation-duration: 1.2s;
+  	animation-name: slidein;
+}
+@keyframes slidein {
+	from {
+	  margin-left: 10%;
+	  width: 20%;
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+}
+#heading2 {
+	animation-duration: 1.2s;
+  	animation-name: slidein2;
+	margin-bottom: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bolder;
+	color: darkblue;
+	background-color: white;
+}
+@keyframes slidein2 {
+	from {
+	  margin-right: 10%;
+	  width: 150%;
+	}
+  
+	to {
+	  margin-right: 0%;
+	  width: 100%;
+	}
+}
+
+body {
+    background: linear-gradient(to bottom right, #3498db, #2ecc71);
+    animation: gradientAnimation 15s ease infinite;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+textarea {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+    width: 50%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+	border: none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border-radius: 5px;
+}
+
+#resultMessage {
+    margin-top: 10px;
+    font-weight: bold;
+    color: red;
+}
